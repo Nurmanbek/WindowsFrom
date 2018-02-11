@@ -21,5 +21,12 @@ namespace WindowsFrom
         {
 
         }
+
+        private void dohodToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Dohod dh = new Dohod();
+            dh.Show();
+            
+        }
     }
 }

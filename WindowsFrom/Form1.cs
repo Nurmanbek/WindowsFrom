@@ -24,8 +24,26 @@ namespace WindowsFrom
             SqlDataAdapter sda = new SqlDataAdapter();
             //git test
             this.Hide();
+            Dohod dh = new Dohod();
+            dh.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
             Main ss = new Main();
             ss.Show();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

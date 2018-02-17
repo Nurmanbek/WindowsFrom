@@ -45,5 +45,17 @@ namespace WindowsFrom
         {
             this.Close();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnMaterial_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Material mt = new Material();
+            mt.Show();
+        }
     }
 }

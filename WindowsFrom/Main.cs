@@ -24,9 +24,14 @@ namespace WindowsFrom
 
         private void dohodToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Dohod dh = new Dohod();
+            Material dh = new Material();
             dh.Show();
             
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
